@@ -1,0 +1,9 @@
+.about-container {
+    background-color: rgb(255, 255, 255);
+}
+.about-container h1{
+    color: black;
+}
+.about-container p {
+    color: black;
+}
