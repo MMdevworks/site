@@ -30,13 +30,13 @@ window.addEventListener("scroll", changeColor);
                 <Link to="/">Home</Link>
             </li>
             <li>
-                <Link to="/project">Development</Link>
+                <Link to="/project">Projects</Link>
             </li>
-            <li>
+            {/* <li>
                 <Link to="/design">Design</Link>
-            </li>
+            </li> */}
             <li>
-                <Link to="/about">About</Link>
+                {/* <Link to="/about">About</Link> */}
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

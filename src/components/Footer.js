@@ -1,6 +1,6 @@
 import "./FooterStyles.css"
 import React from 'react'
-import { FaGithub, FaHome, FaLinkedin, FaMailBulk } from "react-icons/fa"
+import { FaGithub, FaHome, FaLinkedin } from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -11,7 +11,6 @@ const Footer = () => {
                 <FaHome size={20} style={{color:"white", marginRight:"2rem"}}/>
                 <div>
                     <p>Pacific Northwest</p>
-                    <p>Greater Seattle.</p>
                 </div>
             </div>
             
@@ -31,7 +30,7 @@ const Footer = () => {
             </div>
 
             <div className="right">
-                {/* <h4>About</h4>
+                {/* <h4>Insert</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p> */}
                 <div className="social">
