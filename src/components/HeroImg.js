@@ -14,8 +14,9 @@ const HeroImg = () => {
             <p>Design. Develop. Create.</p>
             <h1>Welcome!</h1>
             <div className="content-btn">
-                <Link to="/project" className="btn">Develop</Link>
-                <Link to="/design" className="btn-light">Design</Link>
+                <Link to="/project" className="btn">Projects</Link>
+                {/* <Link to="/about" className="btn-light">About</Link> */}
+                {/* <Link to="/design" className="btn-light">Design</Link> */}
             </div>
         </div>
     </div>

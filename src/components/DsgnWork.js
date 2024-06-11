@@ -6,7 +6,7 @@ import DsgnCardData from './DsgnCardData';
 const DsgnWork = () => {
   return (
     <div className='work-container'>
-        {/* <h1 className='project-heading'>Interested in code? Checkout my <a href="https://github.com/MMdevworks">Github</a></h1> */}
+        <h1 className='project-heading'>A collection of creative work from different stages of my life.</h1>
         <div className='project-container'>
           {DsgnCardData.map((value,index) => {
             return (
